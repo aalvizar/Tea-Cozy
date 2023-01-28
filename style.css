@@ -1,0 +1,175 @@
+/*universal selectors*/
+*{
+    margin:0;
+    padding:0;
+}
+/*element selectors*/
+body{
+    width:100%;
+    background-color:black;
+}
+header{
+    position:fixed;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    height:69px;
+    width:1200px;
+    border-bottom:1px solid seashell;
+    padding: 0 40px;
+    color:seashell;
+    background-color:black;
+    z-index:1;
+}
+
+li{
+    display:inline-block;
+    padding: 20px 10px;
+    color:seashell;
+    text-decoration:underline;
+    font-family:helvetica; 
+    font-size:22px;
+    opacity:0.9;
+}
+
+footer{
+    text-align:left;
+    font-family:Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color:black;
+    padding:20px;
+}
+
+a{
+    color:seashell;
+}
+
+/*class selectors*/
+.Logo{
+    margin-left:10px;
+    padding:10px;
+    height:50px;
+    opacity:0.9;
+    color:seashell;
+}
+.Our-Mission{
+    background-image:url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*a06wvj*_ga*NzgzNjkzMzUwNy4xNjczODc3NTkw*_ga_3LRZM6TM9L*MTY3NDg2OTA3MC4xOC4xLjE2NzQ4NzEzMjEuNTcuMC4w");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:700px;
+    width: 1200px;
+    background-color:black;
+    margin: auto;
+}
+.Our-Mission-Small{
+    position:absolute;
+    margin:auto;
+    margin-top:350px;
+    width:1200px;
+    text-align:center;
+    line-height:55px;
+    font-family:Helvetica;
+    font-size:22px;
+    background-color:black;
+    color:seashell;  
+}
+.Tea-Of-The-Month{
+    font-family:Helvetica;
+    font-size:22px;
+    text-align:center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    color:seashell;
+    width:1000px;
+    margin:auto;
+}
+
+.tea-image{
+    height:200px;
+    width:300px;
+    padding:10px;
+}
+
+.Tea-Header{
+    position:block;
+    font-family:Helvetica;
+    font-size:22px;
+    text-align:center;
+    padding:50px;
+    color:seashell;
+}
+.Locations{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-family:Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-image:url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*v5g1k0*_ga*NzgzNjkzMzUwNy4xNjczODc3NTkw*_ga_3LRZM6TM9L*MTY3NDg2MTAyNS4xNy4xLjE2NzQ4NjEwMjguNTcuMC4w");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color:black;
+    height:500px;
+    width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+.Location-Header{
+    position:absolute;
+    margin-bottom:300px;
+    text-align:center;
+    font-family:Helvetica;
+    font-size:22px;
+    color:seashell;
+    display:block;
+}
+.Downtown{
+    font-family:Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color:black;
+    opacity:1;
+    height:200px;
+    width:300px;
+    margin:auto;
+    line-height:45px;
+}
+
+.East-Bayside{
+    font-family:Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color:black;
+    opacity:1;
+    height:200px;
+    width:300px;
+    margin:auto;
+    line-height:45px;
+}
+
+.Oakdale{
+    font-family:Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color:black;
+    opacity:1;
+    height:200px;
+    width:300px;
+    margin:auto;
+    line-height:45px;
+}
+.The-Tea-Cozy{
+    font-family:Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color:black;
+    text-align:center;
+    height:200px;
+    padding:20px;
+    line-height:65px;
+}
